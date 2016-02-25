@@ -15,12 +15,12 @@ h2 {
   background-color: #FF0000;
   color: blue;
 }
-  table,
+table,
   th,
   td {
     border: 1px solid black;
   }
-  th {
+th {
     background-color: #0000FF;
     color: red;
   }
@@ -28,15 +28,15 @@ h2 {
     background-color: #FF0000;
     color: blue;
   }
-  tr:hover {
+tr:hover {
     background-color: #0000FF
   }
-  div {
+div {
     text-align: justify;
   }
-  <table style="text-align:center;"> h1 {
+<table style="text-align:center;"> h1 {
     color: blue;
   }
-  h2 {
+h2 {
     color: ;
   }
