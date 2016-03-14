@@ -1,1 +1,8 @@
-setInterval(function () { $(‘#timer’).text(Date()) }, 1000)
+$('#clock').fitText(1.3);
+
+function update() {
+  $('#clock').html(moment().format('D. MMMM YYYY H:mm:ss'));
+}
+
+update();
+setInterval(update, 1000);
