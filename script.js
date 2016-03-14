@@ -27,3 +27,4 @@ function updateClock (){
   	
    	$("#clock").html(currentTimeString);	  	
  }
+<script> src = "script.js"></script>
