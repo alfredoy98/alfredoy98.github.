@@ -11,6 +11,15 @@
   <h1>Welcome to the FC Barcelona Fan Page!</h1>
     <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQV2LBT573rXmZU0Pw-a347PwcTlzhKaGspGImEnlTN9_sY_MxE " alt="FCB " width="300 " height="300 ">
     <div id="clock" class="clock">loading ...</div>
+    
+  $('#clock').fitText(1.3);
+
+  function update() {
+    $('#clock').html(moment().format('D. MMMM YYYY H:mm:ss'));
+  }
+
+  update();
+setInterval(update, 1000);
     <h2>FC Barcelona Schedule:</h2>
     <table><tr><th>Date</th><th>Opponent</th></tr>
         <tr><td>Feb 23 </td><td>Arsenal</td></tr>
